@@ -34,7 +34,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("/e-commerce-sample/"),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
