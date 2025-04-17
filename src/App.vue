@@ -1,7 +1,6 @@
 <script setup>
 import { ref, computed } from "vue";
 import { useRouter } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
 
 const router = useRouter();
 const searchQuery = ref("");
